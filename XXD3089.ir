@@ -1,0 +1,84 @@
+Filetype: IR signals file
+Version: 1
+#
+#
+name: PWR
+type: parsed
+protocol: PIONEER
+address: 1C A5 00 00
+command: 1C A5 00 00
+bits: 64
+value: C7 38 5A A5 C7 38 5A A5
+#
+#
+name: Vol+
+type: parsed
+protocol: PIONEER
+address: 0A A5 00 00
+command: 0A A5 00 00
+bits: 64
+value: AF 50 5A A5 AF 50 5A A5
+#
+#
+name: Vol-
+type: parsed
+protocol: NEC
+address: A5 00 00 00
+command: 0B 00 00 00
+bits: 32
+value: A5 5A D0 2F
+#
+#
+name: Unknown
+type: parsed
+protocol: PIONEER
+address: 12 A5 00 00
+command: 12 A5 00 00
+bits: 64
+value: B7 48 5A A5 B7 48 5A A5
+#
+#
+name: DVD/LD
+type: parsed
+protocol: PIONEER
+address: 85 A5 00 00
+command: 85 A5 00 00
+bits: 64
+value: 5E A1 5A A5 5E A1 5A A5
+#
+#
+name: DVD 5.1
+type: parsed
+protocol: PIONEER
+address: 5E A5 00 00
+command: 06 A5 00 00
+bits: 64
+value: 9F 60 5A A5 85 7A 5A A5
+#
+#
+name: TV/SAT
+type: parsed
+protocol: PIONEER
+address: 0C A5 00 00
+command: 0C A5 00 00
+bits: 64
+value: CF 30 5A A5 CF 30 5A A5
+#
+#
+name: DVR/VCR
+type: parsed
+protocol: PIONEER
+address: 89 A5 00 00
+command: 89 A5 00 00
+bits: 64
+value: 6E 91 5A A5 6E 91 5A A5
+#
+#
+name: CD
+type: parsed
+protocol: PIONEER
+address: 4C A5 00 00
+command: 4C A5 00 00
+bits: 64
+value: CD 32 5A A5 CD 32 5A A5
+#
